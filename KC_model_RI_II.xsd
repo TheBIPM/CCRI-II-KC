@@ -45,7 +45,7 @@
         </xs:documentation>
     </xs:annotation>
     
-    	
+    
 	<!-- Define a laboratory -->
     <xs:complexType name = "laboratoryType">
         <xs:sequence>
@@ -63,7 +63,7 @@
         </xs:sequence>
     </xs:complexType>
      
-    <!-- Define a Degree of Equivalence -->
+    <!-- Define a degree of equivalence -->
 	<xs:complexType name = "doeType">
         <xs:sequence>
             <xs:annotation>
@@ -100,7 +100,7 @@
                     In some cases, CCRI(II) or regional key comparisons could have been linked to the SIR.
                     The degrees of equivalence in compliance with BIPM.RI(II)-K1 comparisons are provided.
                     The linked comparison is identified
-                    _ by its CIPM-MRA identifier file:///C:/Users/romain.coulon/Downloads/CIPM-MRA-G-11.pdf (xml element: "comparisonCode")
+                    _ by its CIPM-MRA identifier https://www.bipm.org/documents/20126/43742162/CIPM-MRA-G-11.pdf (xml element: "comparisonCode")
                     _ the Consultative Committee (CC) that organize the comparison (xml element: "consultativeCommittee")
                     _ or the Regional Metrology Organization (RMO) that organize the comparison (xml element: "rmo")
                     _ the year when the comparison was carried out (xml element: "year")
@@ -168,7 +168,8 @@
             <xs:annotation>
                 <xs:documentation xml:lang="en">
                     The comparison is defined by:
-                    _ the comparison code of the key comparison (xml element: "comparisonCode") such as defined in the CIPM MRA file:///C:/Users/romain.coulon/Downloads/CIPM-MRA-G-11.pdf
+                    _ the comparison code of the key comparison (xml element: "comparisonCode")
+                      such as defined in the CIPM MRA https://www.bipm.org/documents/20126/43742162/CIPM-MRA-G-11.pdf
                     _ the service category identifier
 					_ the identification of the pilot laboratory
                 </xs:documentation>
@@ -321,7 +322,31 @@
             <xs:element name = "reference" type = "kc:referenceType" minOccurs = "0" maxOccurs = "1"></xs:element>
         </xs:sequence>
     </xs:complexType>
-    
+
+    <!-- Define an Type A relative uncertainty -->
+    <xs:simpleType name = "relativeStandardUncertaintyTypeA">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">         
+                According to JCGM 100:2008 2.3.2, the type B uncertainty is an uncertainty evaluated by the statistical analysis of series of observations.
+				Here the relative uncertainty is considered dividing the uncertainty by the measurement value.
+				The Guides in Metrology are available in https://www.bipm.org/fr/web/guest/publications/guides
+                </xs:documentation>
+            </xs:annotation>
+            <xs:restriction base="xs:decimal"></xs:restriction>                                                                       
+    </xs:simpleType>	
+        
+    <!-- Define an Type B relative uncertainty -->
+    <xs:simpleType name = "relativeStandardUncertaintyTypeB">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">         
+                According to JCGM 100:2008 2.3.3, the type B uncertainty is an uncertainty evaluated by means other than the statistical analysis of series of observations.
+				Here the relative uncertainty is considered dividing the uncertainty by the measurement value.
+				The Guides in Metrology are available in https://www.bipm.org/fr/web/guest/publications/guides
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:decimal"></xs:restriction>                                                                       
+    </xs:simpleType>	
+	
     <!-- Define an activity measurement -->
     <xs:complexType name = "activityType">
         <xs:sequence>
@@ -338,8 +363,8 @@
                 </xs:documentation>
             </xs:annotation>
             <xs:element name = "measurementResult" type="dsi:realQuantityType"></xs:element>
-            <xs:element name = "relStdUncertTypeA" type = "xs:decimal" minOccurs = "0" maxOccurs = "1"></xs:element>
-            <xs:element name = "relStdUncertTypeB" type = "xs:decimal" minOccurs = "0" maxOccurs = "1"></xs:element>                                                                            
+            <xs:element name = "relStdUncertTypeA" type = "kc:relativeStandardUncertaintyTypeA" minOccurs = "0" maxOccurs = "1"></xs:element>
+            <xs:element name = "relStdUncertTypeB" type = "kc:relativeStandardUncertaintyTypeB" minOccurs = "0" maxOccurs = "1"></xs:element>                                                                            
         </xs:sequence>
     </xs:complexType>
     
@@ -385,7 +410,6 @@
         </xs:sequence>
     </xs:complexType>
     
-    
     <!-- Define a list of solutions -->
     <xs:complexType name = "solutionsType">
         <xs:sequence>
@@ -412,6 +436,17 @@
         </xs:sequence>
     </xs:complexType>
     
+    <!-- Define an relative standard uncertainty from the BIPM instrument -->
+    <xs:simpleType name = "relativeStandardUncertainty">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">         
+                The SIR measurement has is own uncertainty that is combined with the laboratory uncertainties.
+                This specific contribution of the SIR to the final uncertainty is given by the standard uncertainty divided by the value of the equivalent activity. 
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:decimal"></xs:restriction>                                                                       
+    </xs:simpleType>	
+    
     <!-- Define an equivalent activity -->
 	<xs:complexType name = "eqActivityType">
         <xs:sequence>
@@ -426,8 +461,8 @@
                     _ the relative standard uncertainty from the SIR system is given as a dimensionless decimal (xml element: "relStdUncertFromSIR")
                 </xs:documentation>
             </xs:annotation>
-            <xs:element name = "sirResult" type="dsi:realQuantityType"></xs:element>
-            <xs:element name = "relStdUncertFromSIR" type = "xs:decimal" minOccurs = "0"  maxOccurs = "1"></xs:element>
+            <xs:element name = "sirResult" type= "dsi:realQuantityType"></xs:element>
+            <xs:element name = "relStdUncertFromSIR" type = "kc:relativeStandardUncertainty" minOccurs = "0"  maxOccurs = "1"></xs:element>
         </xs:sequence>
     </xs:complexType>
     
