@@ -5,7 +5,8 @@
     xmlns:dsi="https://ptb.de/si">
 	<kc:generalInformation>
 		<kc:comparisonCode>BIPM.RI(II)-K1.Tb-161</kc:comparisonCode>
-		<kc:serviceCategoryID></kc:serviceCategoryID>
+		<kc:serviceCategoryID>https://si-digital-framework.org/kcdb-sc/RI/RAD-1.3.1</kc:serviceCategoryID>
+		<kc:siDigitalFrameworkRadionuclide>https://si-digital-framework.org/kcdb-sc/nucl/Tb-161</kc:siDigitalFrameworkRadionuclide>
 		<kc:pilot>
 			<kc:acronym>BIPM</kc:acronym>
 			<kc:ror>https://ror.org/055vkyj43</kc:ror>
@@ -17,16 +18,16 @@
 			<kc:year>2020</kc:year>
 		</kc:release>
 		<kc:release>
-			<kc:doi></kc:doi>
+			<kc:doi>https://doi.org/10.1088/0026-1394/61/1A/06005</kc:doi>
 			<kc:year>2023</kc:year>
 			<kc:kcrv>
 				<dsi:value>1704.7</dsi:value>
-				<dsi:unit>kBq</dsi:unit>
-				<dsi:expandedUnc>
-					<dsi:uncertainty>4.1</dsi:uncertainty>
-					<dsi:coverageFactor>1</dsi:coverageFactor>
-					<dsi:coverageProbability>0.68</dsi:coverageProbability>
-				</dsi:expandedUnc>
+				<dsi:unit>MBq</dsi:unit>
+				<dsi:measurementUncertaintyUnivariate>
+					<dsi:standardMU>
+						<dsi:valueStandardMU>4.1</dsi:valueStandardMU>
+					</dsi:standardMU>
+				</dsi:measurementUncertaintyUnivariate>
 			</kc:kcrv>
 			<kc:degreesOfEquivalence>
 				<kc:degreeOfEquivalence>
@@ -38,11 +39,13 @@
 					<kc:result>
 						<dsi:value>5</dsi:value>
 						<dsi:unit>\mega\becquerel</dsi:unit>
-						<dsi:expandedUnc>
-							<dsi:uncertainty>13</dsi:uncertainty>
-							<dsi:coverageFactor>2</dsi:coverageFactor>
-							<dsi:coverageProbability>0.95</dsi:coverageProbability>
-						</dsi:expandedUnc>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>13</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
 					</kc:result>
 				</kc:degreeOfEquivalence>
 				<kc:degreeOfEquivalence>
@@ -53,11 +56,81 @@
 					<kc:result>
 						<dsi:value>-3.1</dsi:value>
 						<dsi:unit>\mega\becquerel</dsi:unit>
-						<dsi:expandedUnc>
-							<dsi:uncertainty>7.4</dsi:uncertainty>
-							<dsi:coverageFactor>2</dsi:coverageFactor>
-							<dsi:coverageProbability>0.95</dsi:coverageProbability>
-						</dsi:expandedUnc>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>7.4</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+			</kc:degreesOfEquivalence>
+		</kc:release>
+		<kc:release>
+			<kc:doi></kc:doi>
+			<kc:year>2026</kc:year>
+			<kc:kcrv>
+				<dsi:value>1701.8</dsi:value>
+				<dsi:unit>MBq</dsi:unit>
+				<dsi:measurementUncertaintyUnivariate>
+					<dsi:standardMU>
+						<dsi:valueStandardMU>3.6</dsi:valueStandardMU>
+					</dsi:standardMU>
+				</dsi:measurementUncertaintyUnivariate>
+			</kc:kcrv>
+			<kc:degreesOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>IRA</kc:acronym>
+						<kc:pastAcronyms>IER</kc:pastAcronyms>
+						<kc:ror>https://ror.org/05a353079</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>8</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>17</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>NPL</kc:acronym>
+						<kc:ror>https://ror.org/015w2mp89</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-0.2</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>6.9</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>POLATOM</kc:acronym>
+						<kc:pastAcronyms>IBJ, RC</kc:pastAcronyms>
+						<kc:ror>https://ror.org/00nzsxq20</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-6</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>12</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
 					</kc:result>
 				</kc:degreeOfEquivalence>
 			</kc:degreesOfEquivalence>
@@ -79,20 +152,20 @@
 					<kc:mass>
 						<dsi:value>3.64243</dsi:value>
 						<dsi:unit>\gram</dsi:unit>
-						<dsi:expandedUnc>
-							<dsi:uncertainty>21</dsi:uncertainty>
-							<dsi:coverageFactor>1</dsi:coverageFactor>
-							<dsi:coverageProbability>0.68</dsi:coverageProbability>
-						</dsi:expandedUnc>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:standardMU>
+								<dsi:valueStandardMU>21</dsi:valueStandardMU>
+							</dsi:standardMU>
+						</dsi:measurementUncertaintyUnivariate>
 					</kc:mass>
 					<kc:density>
 						<dsi:value>1.000</dsi:value>
 						<dsi:unit>\gram\centi\metre\tothe{-3}</dsi:unit>
-						<dsi:expandedUnc>
-							<dsi:uncertainty>6</dsi:uncertainty>
-							<dsi:coverageFactor>1</dsi:coverageFactor>
-							<dsi:coverageProbability>0.68</dsi:coverageProbability>
-						</dsi:expandedUnc>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:standardMU>
+								<dsi:valueStandardMU>6</dsi:valueStandardMU>
+							</dsi:standardMU>
+						</dsi:measurementUncertaintyUnivariate>
 					</kc:density>
 					<kc:chemicalComposition>
 						<kc:solvant>
@@ -110,7 +183,7 @@
 							<kc:InChI>InChI=1S/Tb/q+3</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>25</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -125,11 +198,11 @@
 						<kc:evaluation>
 							<dsi:value>6.955</dsi:value>
 							<dsi:unit>\day</dsi:unit>
-							<dsi:expandedUnc>
-								<dsi:uncertainty>2</dsi:uncertainty>
-								<dsi:coverageFactor>1</dsi:coverageFactor>
-								<dsi:coverageProbability>0.68</dsi:coverageProbability>
-							</dsi:expandedUnc>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>2</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
 						</kc:evaluation>
 					</kc:halfLife>
 					<kc:methodID>4P-PS-BP-CB-GR-CO</kc:methodID>
@@ -139,11 +212,11 @@
 						<kc:measurementResult>
 							<dsi:value>61970</dsi:value>
 							<dsi:unit>\kilo\becquerel</dsi:unit>
-							<dsi:expandedUnc>
-								<dsi:uncertainty>0.582</dsi:uncertainty>
-								<dsi:coverageFactor>1</dsi:coverageFactor>
-								<dsi:coverageProbability>0.68</dsi:coverageProbability>
-							</dsi:expandedUnc>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>0.582</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
 						</kc:measurementResult>
 						<kc:relStdUncertTypeA>0.16</kc:relStdUncertTypeA>
 						<kc:relStdUncertTypeB>0.56</kc:relStdUncertTypeB>
@@ -156,11 +229,11 @@
 						<kc:evaluation>
 							<dsi:value>6.955</dsi:value>
 							<dsi:unit>\day</dsi:unit>
-							<dsi:expandedUnc>
-								<dsi:uncertainty>2</dsi:uncertainty>
-								<dsi:coverageFactor>1</dsi:coverageFactor>
-								<dsi:coverageProbability>0.68</dsi:coverageProbability>
-							</dsi:expandedUnc>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>2</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
 						</kc:evaluation>
 					</kc:halfLife>
 					<kc:methodID>4P-LS-BP-CB-GR-CO</kc:methodID>
@@ -170,11 +243,11 @@
 						<kc:measurementResult>
 							<dsi:value>61970</dsi:value>
 							<dsi:unit>\kilo\becquerel</dsi:unit>
-							<dsi:expandedUnc>
-								<dsi:uncertainty>0.582</dsi:uncertainty>
-								<dsi:coverageFactor>1</dsi:coverageFactor>
-								<dsi:coverageProbability>0.68</dsi:coverageProbability>
-							</dsi:expandedUnc>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>0.582</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
 						</kc:measurementResult>
 						<kc:relStdUncertTypeA>0.16</kc:relStdUncertTypeA>
 						<kc:relStdUncertTypeB>0.56</kc:relStdUncertTypeB>
@@ -195,11 +268,11 @@
 						<kc:sirResult>
 							<dsi:value>1710</dsi:value>
 							<dsi:unit>\mega\becquerel</dsi:unit>
-							<dsi:expandedUnc>
-								<dsi:uncertainty>10</dsi:uncertainty>
-								<dsi:coverageFactor>1</dsi:coverageFactor>
-								<dsi:coverageProbability>0.68</dsi:coverageProbability>
-							</dsi:expandedUnc>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>10</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
 						</kc:sirResult>
 						<kc:relStdUncertFromSIR>0.0017</kc:relStdUncertFromSIR>
 					</kc:equivalentActivity>
@@ -241,7 +314,7 @@
 							<kc:InChI>InChI=1S/Gd/q+3</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>25</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -256,11 +329,11 @@
 						<kc:evaluation>
 							<dsi:value>6.9571</dsi:value>
 							<dsi:unit>\day</dsi:unit>
-							<dsi:expandedUnc>
-								<dsi:uncertainty>36</dsi:uncertainty>
-								<dsi:coverageFactor>1</dsi:coverageFactor>
-								<dsi:coverageProbability>0.68</dsi:coverageProbability>
-							</dsi:expandedUnc>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>36</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
 						</kc:evaluation>
 						<kc:reference>
 							<kc:detail>NPL evaluation using \cite{T05_Yongfu_1989}, \cite{T05_BIPM_OLD}, \cite{T05_NPL_2022}</kc:detail>
@@ -273,11 +346,11 @@
 						<kc:measurementResult>
 							<dsi:value>54612</dsi:value>
 							<dsi:unit>\kilo\becquerel</dsi:unit>
-							<dsi:expandedUnc>
-								<dsi:uncertainty>0.186</dsi:uncertainty>
-								<dsi:coverageFactor>1</dsi:coverageFactor>
-								<dsi:coverageProbability>0.68</dsi:coverageProbability>
-							</dsi:expandedUnc>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>0.186</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
 						</kc:measurementResult>
 						<kc:relStdUncertTypeA>0.023</kc:relStdUncertTypeA>
 						<kc:relStdUncertTypeB>0.185</kc:relStdUncertTypeB>
@@ -290,11 +363,11 @@
 						<kc:evaluation>
 							<dsi:value>6.9571</dsi:value>
 							<dsi:unit>\day</dsi:unit>
-							<dsi:expandedUnc>
-								<dsi:uncertainty>36</dsi:uncertainty>
-								<dsi:coverageFactor>1</dsi:coverageFactor>
-								<dsi:coverageProbability>0.68</dsi:coverageProbability>
-							</dsi:expandedUnc>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>36</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
 						</kc:evaluation>
 						<kc:reference>
 							<kc:detail>NPL evaluation using \cite{T05_Yongfu_1989}, \cite{T05_BIPM_OLD}, \cite{T05_NPL_2022}</kc:detail>
@@ -307,11 +380,11 @@
 						<kc:measurementResult>
 							<dsi:value>54486</dsi:value>
 							<dsi:unit>\kilo\becquerel</dsi:unit>
-							<dsi:expandedUnc>
-								<dsi:uncertainty>0.263</dsi:uncertainty>
-								<dsi:coverageFactor>1</dsi:coverageFactor>
-								<dsi:coverageProbability>0.68</dsi:coverageProbability>
-							</dsi:expandedUnc>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>0.263</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
 						</kc:measurementResult>
 						<kc:relStdUncertTypeA>0.032</kc:relStdUncertTypeA>
 						<kc:relStdUncertTypeB>0.261</kc:relStdUncertTypeB>
@@ -331,11 +404,11 @@
 						<kc:sirResult>
 							<dsi:value>1702.4</dsi:value>
 							<dsi:unit>\mega\becquerel</dsi:unit>
-							<dsi:expandedUnc>
-								<dsi:uncertainty>3.8</dsi:uncertainty>
-								<dsi:coverageFactor>1</dsi:coverageFactor>
-								<dsi:coverageProbability>0.68</dsi:coverageProbability>
-							</dsi:expandedUnc>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>3.8</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
 						</kc:sirResult>
 						<kc:relStdUncertFromSIR>0.0012</kc:relStdUncertFromSIR>
 					</kc:equivalentActivity>
@@ -352,11 +425,222 @@
 						<kc:sirResult>
 							<dsi:value>1698.5</dsi:value>
 							<dsi:unit>\mega\becquerel</dsi:unit>
-							<dsi:expandedUnc>
-								<dsi:uncertainty>4.9</dsi:uncertainty>
-								<dsi:coverageFactor>1</dsi:coverageFactor>
-								<dsi:coverageProbability>0.68</dsi:coverageProbability>
-							</dsi:expandedUnc>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>4.9</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:sirResult>
+						<kc:relStdUncertFromSIR>0.0012</kc:relStdUncertFromSIR>
+					</kc:equivalentActivity>
+				</kc:bipmMeasurement>
+			</kc:bipmMeasurements>
+		</kc:submission>
+		<kc:submission>
+			<kc:laboratory>
+				<kc:acronym>POLATOM</kc:acronym>
+				<kc:pastAcronyms>IBJ, RC</kc:pastAcronyms>
+				<kc:ror>https://ror.org/00nzsxq20</kc:ror>
+			</kc:laboratory>
+			<kc:year>2025</kc:year>
+			<kc:inKCRV>true</kc:inKCRV>
+			<kc:doeValid>true</kc:doeValid>
+			<kc:radioactiveSolutions>
+				<kc:radioactiveSolution>
+					<kc:solutionID>Tb-161POLATOM2025-1</kc:solutionID>
+					<kc:mass>
+						<dsi:value>3.65983</dsi:value>
+						<dsi:unit>\gram</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:standardMU>
+								<dsi:valueStandardMU>60</dsi:valueStandardMU>
+							</dsi:standardMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:mass>
+					<kc:density>
+						<dsi:value>1</dsi:value>
+						<dsi:unit>\gram\centi\metre\tothe{-3}</dsi:unit>
+					</kc:density>
+					<kc:chemicalComposition>
+						<kc:solvant>
+							<kc:smiles>Cl</kc:smiles>
+							<kc:InChIKey>VEXZGXHMUGYJMC-UHFFFAOYSA-N</kc:InChIKey>
+							<kc:InChI>InChI=1S/ClH/h1H</kc:InChI>
+							<kc:solvantConcentration>
+								<dsi:value>0.1</dsi:value>
+								<dsi:unit>\mole\deci\metre\tothe{-3}</dsi:unit>
+							</kc:solvantConcentration>
+						</kc:solvant>
+						<kc:carrier>
+						</kc:carrier>
+					</kc:chemicalComposition>
+					<kc:impurities>160Tb: 7.63(27)x10-3 %</kc:impurities>
+				</kc:radioactiveSolution>
+			</kc:radioactiveSolutions>
+			<kc:laboratoryMeasurements>
+				<kc:measurement>
+					<kc:referenceDate>2025-04-08T10:00:00Z</kc:referenceDate>
+					<kc:solutionID>Tb-161POLATOM2025-1</kc:solutionID>
+					<kc:halfLife>
+						<kc:evaluation>
+							<dsi:value>6.9625</dsi:value>
+							<dsi:unit>\day</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>26</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:evaluation>
+						<kc:reference>
+							<kc:doi>https://doi.org/10.1088/0026-1394/61/1A/06005</kc:doi>
+						</kc:reference>
+					</kc:halfLife>
+					<kc:methodID>4P-LS-BP-NA-GR-CO</kc:methodID>
+					<kc:description>4pi(LS)beta-gamma coincidence counting</kc:description>
+					<kc:comments>The final result 64~669 kBq is the weighted mean of these three results. The final measurement uncertainty 0.41~\% was determined as the systematic uncertainty of the average. Result from the measurement system called TDKG using the 4$\pi$(LS)$\beta$-$\gamma$ coincidence method</kc:comments>
+					<kc:activity>
+						<kc:measurementResult>
+							<dsi:value>64570</dsi:value>
+							<dsi:unit>\kilo\becquerel</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>0.447</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:measurementResult>
+						<kc:relStdUncertTypeA>0.194</kc:relStdUncertTypeA>
+						<kc:relStdUncertTypeB>0.403</kc:relStdUncertTypeB>
+					</kc:activity>
+				</kc:measurement>
+				<kc:measurement>
+					<kc:referenceDate>2025-04-08T10:00:00Z</kc:referenceDate>
+					<kc:solutionID>Tb-161POLATOM2025-1</kc:solutionID>
+					<kc:halfLife>
+						<kc:evaluation>
+							<dsi:value>6.9625</dsi:value>
+							<dsi:unit>\day</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>26</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:evaluation>
+						<kc:reference>
+							<kc:doi>https://doi.org/10.1088/0026-1394/61/1A/06005</kc:doi>
+						</kc:reference>
+					</kc:halfLife>
+					<kc:methodID>4P-LS-BP-00-00-TD</kc:methodID>
+					<kc:description>TDCR</kc:description>
+					<kc:comments>The final result 64~669 kBq is the weighted mean of these three results. The final measurement uncertainty 0.41~\% was determined as the systematic uncertainty of the average. Result from the measurement system called TDKG using the 4$\pi$(LS)$\beta$-$\gamma$ coincidence method</kc:comments>
+					<kc:activity>
+						<kc:measurementResult>
+							<dsi:value>64709</dsi:value>
+							<dsi:unit>\kilo\becquerel</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>0.38</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:measurementResult>
+						<kc:relStdUncertTypeA>0.174</kc:relStdUncertTypeA>
+						<kc:relStdUncertTypeB>0.338</kc:relStdUncertTypeB>
+					</kc:activity>
+				</kc:measurement>
+				<kc:measurement>
+					<kc:referenceDate>2025-04-08T10:00:00Z</kc:referenceDate>
+					<kc:solutionID>Tb-161POLATOM2025-1</kc:solutionID>
+					<kc:halfLife>
+						<kc:evaluation>
+							<dsi:value>6.9625</dsi:value>
+							<dsi:unit>\day</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>26</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:evaluation>
+						<kc:reference>
+							<kc:doi>https://doi.org/10.1088/0026-1394/61/1A/06005</kc:doi>
+						</kc:reference>
+					</kc:halfLife>
+					<kc:methodID>4P-LS-BP-00-00-TD</kc:methodID>
+					<kc:description>TDCR</kc:description>
+					<kc:comments>The final result 64~669 kBq is the weighted mean of these three results. The final measurement uncertainty 0.41~\% was determined as the systematic uncertainty of the average. Result from the measurement system called TDKG using the 4$\pi$(LS)$\beta$-$\gamma$ coincidence method</kc:comments>
+					<kc:activity>
+						<kc:measurementResult>
+							<dsi:value>64702</dsi:value>
+							<dsi:unit>\kilo\becquerel</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>0.389</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:measurementResult>
+						<kc:relStdUncertTypeA>0.210</kc:relStdUncertTypeA>
+						<kc:relStdUncertTypeB>0.328</kc:relStdUncertTypeB>
+					</kc:activity>
+				</kc:measurement>
+			</kc:laboratoryMeasurements>
+			<kc:bipmMeasurements>
+				<kc:bipmMeasurement>
+					<kc:solutions>
+						<kc:solutionID>Tb-161POLATOM2025-1</kc:solutionID>
+					</kc:solutions>
+					<kc:methods>
+						<kc:method>4P-LS-BP-NA-GR-CO</kc:method>
+					</kc:methods>
+					<kc:referenceSource>2</kc:referenceSource>
+					<kc:equivalentActivity>
+						<kc:sirResult>
+							<dsi:value>1693.7</dsi:value>
+							<dsi:unit>\mega\becquerel</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>7.8</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:sirResult>
+						<kc:relStdUncertFromSIR>0.0012</kc:relStdUncertFromSIR>
+					</kc:equivalentActivity>
+				</kc:bipmMeasurement>
+				<kc:bipmMeasurement>
+					<kc:solutions>
+						<kc:solutionID>Tb-161POLATOM2025-1</kc:solutionID>
+					</kc:solutions>
+					<kc:methods>
+						<kc:method>4P-LS-BP-00-00-TD</kc:method>
+					</kc:methods>
+					<kc:referenceSource>2</kc:referenceSource>
+					<kc:equivalentActivity>
+						<kc:sirResult>
+							<dsi:value>1697.3</dsi:value>
+							<dsi:unit>\mega\becquerel</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>6.8</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:sirResult>
+						<kc:relStdUncertFromSIR>0.0012</kc:relStdUncertFromSIR>
+					</kc:equivalentActivity>
+				</kc:bipmMeasurement>
+				<kc:bipmMeasurement>
+					<kc:solutions>
+						<kc:solutionID>Tb-161POLATOM2025-1</kc:solutionID>
+					</kc:solutions>
+					<kc:methods>
+						<kc:method>4P-LS-BP-00-00-TD</kc:method>
+					</kc:methods>
+					<kc:referenceSource>2</kc:referenceSource>
+					<kc:equivalentActivity>
+						<kc:sirResult>
+							<dsi:value>1697.1</dsi:value>
+							<dsi:unit>\mega\becquerel</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>6.9</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
 						</kc:sirResult>
 						<kc:relStdUncertFromSIR>0.0012</kc:relStdUncertFromSIR>
 					</kc:equivalentActivity>

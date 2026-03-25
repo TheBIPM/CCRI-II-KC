@@ -150,7 +150,7 @@
 				</kc:degreeOfEquivalence>
 				<kc:degreeOfEquivalence>
 					<kc:laboratory>
-						<kc:acronym>BKFH</kc:acronym>
+						<kc:acronym>BFKH</kc:acronym>
 						<kc:pastAcronyms>OMH, MKEH</kc:pastAcronyms>
 						<kc:ror>https://ror.org/03c6pbw79</kc:ror>
 					</kc:laboratory>
@@ -430,7 +430,7 @@
 				</kc:degreeOfEquivalence>
 				<kc:degreeOfEquivalence>
 					<kc:laboratory>
-						<kc:acronym>BKFH</kc:acronym>
+						<kc:acronym>BFKH</kc:acronym>
 						<kc:pastAcronyms>OMH, MKEH</kc:pastAcronyms>
 						<kc:ror>https://ror.org/03c6pbw79</kc:ror>
 					</kc:laboratory>
@@ -515,7 +515,7 @@
 				</kc:degreeOfEquivalence>
 				<kc:degreeOfEquivalence>
 					<kc:laboratory>
-						<kc:acronym>BKFH</kc:acronym>
+						<kc:acronym>BFKH</kc:acronym>
 						<kc:pastAcronyms>OMH, MKEH</kc:pastAcronyms>
 						<kc:ror>https://ror.org/03c6pbw79</kc:ror>
 					</kc:laboratory>
@@ -822,7 +822,7 @@
 			</kc:degreesOfEquivalence>
 		</kc:release>
 		<kc:release>
-			<kc:doi>https://doi.org/?</kc:doi>
+			<kc:doi>https://doi.org/10.1088/0026-1394/62/1A/06001</kc:doi>
 			<kc:year>2024</kc:year>
 			<kc:kcrv>
 				<dsi:value>19246</dsi:value>
@@ -836,29 +836,12 @@
 			<kc:degreesOfEquivalence>
 				<kc:degreeOfEquivalence>
 					<kc:laboratory>
-						<kc:acronym>NPL</kc:acronym>
-						<kc:ror>https://ror.org/015w2mp89</kc:ror>
-					</kc:laboratory>
-					<kc:result>
-						<dsi:value>0.02</dsi:value>
-						<dsi:unit>\mega\becquerel</dsi:unit>
-						<dsi:measurementUncertaintyUnivariate>
-							<dsi:expandedMU>
-								<dsi:valueExpandedMU>0.11</dsi:valueExpandedMU>
-								<dsi:coverageFactor>2</dsi:coverageFactor>
-								<dsi:coverageProbability>0.95</dsi:coverageProbability>
-							</dsi:expandedMU>
-						</dsi:measurementUncertaintyUnivariate>
-					</kc:result>
-				</kc:degreeOfEquivalence>
-				<kc:degreeOfEquivalence>
-					<kc:laboratory>
-						<kc:acronym>BKFH</kc:acronym>
+						<kc:acronym>BFKH</kc:acronym>
 						<kc:pastAcronyms>OMH, MKEH</kc:pastAcronyms>
 						<kc:ror>https://ror.org/03c6pbw79</kc:ror>
 					</kc:laboratory>
 					<kc:result>
-						<dsi:value>-0.11</dsi:value>
+						<dsi:value>-0.1</dsi:value>
 						<dsi:unit>\mega\becquerel</dsi:unit>
 						<dsi:measurementUncertaintyUnivariate>
 							<dsi:expandedMU>
@@ -876,7 +859,7 @@
 						<kc:ror>https://ror.org/03az79194</kc:ror>
 					</kc:laboratory>
 					<kc:result>
-						<dsi:value>-0.05</dsi:value>
+						<dsi:value>-0.04</dsi:value>
 						<dsi:unit>\mega\becquerel</dsi:unit>
 						<dsi:measurementUncertaintyUnivariate>
 							<dsi:expandedMU>
@@ -893,11 +876,28 @@
 						<kc:ror>https://ror.org/05r3f7h03</kc:ror>
 					</kc:laboratory>
 					<kc:result>
-						<dsi:value>0.0</dsi:value>
+						<dsi:value>0.01</dsi:value>
 						<dsi:unit>\mega\becquerel</dsi:unit>
 						<dsi:measurementUncertaintyUnivariate>
 							<dsi:expandedMU>
 								<dsi:valueExpandedMU>0.12</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>NPL</kc:acronym>
+						<kc:ror>https://ror.org/015w2mp89</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-0.01</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>0.24</dsi:valueExpandedMU>
 								<dsi:coverageFactor>2</dsi:coverageFactor>
 								<dsi:coverageProbability>0.95</dsi:coverageProbability>
 							</dsi:expandedMU>
@@ -911,7 +911,110 @@
 						<kc:ror>https://ror.org/00nzsxq20</kc:ror>
 					</kc:laboratory>
 					<kc:result>
-						<dsi:value>0.27</dsi:value>
+						<dsi:value>0.28</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>0.29</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+			</kc:degreesOfEquivalence>
+		</kc:release>
+		<kc:release>
+			<kc:doi></kc:doi>
+			<kc:year>2025</kc:year>
+			<kc:kcrv>
+				<dsi:value>19244</dsi:value>
+				<dsi:unit>kBq</dsi:unit>
+				<dsi:measurementUncertaintyUnivariate>
+					<dsi:standardMU>
+						<dsi:valueStandardMU>19</dsi:valueStandardMU>
+					</dsi:standardMU>
+				</dsi:measurementUncertaintyUnivariate>
+			</kc:kcrv>
+			<kc:degreesOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>BFKH</kc:acronym>
+						<kc:pastAcronyms>OMH, MKEH</kc:pastAcronyms>
+						<kc:ror>https://ror.org/03c6pbw79</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-0.1</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>0.13</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>LNE-LNHB</kc:acronym>
+						<kc:pastAcronyms>LMRI, LPRI, BNM-LNHB</kc:pastAcronyms>
+						<kc:ror>https://ror.org/03az79194</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-0.04</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>0.1</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>PTB</kc:acronym>
+						<kc:ror>https://ror.org/05r3f7h03</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>0.01</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>0.12</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>NPL</kc:acronym>
+						<kc:ror>https://ror.org/015w2mp89</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-0.01</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>0.24</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>POLATOM</kc:acronym>
+						<kc:pastAcronyms>IBJ, RC</kc:pastAcronyms>
+						<kc:ror>https://ror.org/00nzsxq20</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>0.28</dsi:value>
 						<dsi:unit>\mega\becquerel</dsi:unit>
 						<dsi:measurementUncertaintyUnivariate>
 							<dsi:expandedMU>
@@ -961,7 +1064,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>10</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -993,7 +1096,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>10</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -1142,7 +1245,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>8</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -1174,7 +1277,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>8</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -1403,7 +1506,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>20</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -1436,7 +1539,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>20</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -1653,7 +1756,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>30</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -1898,7 +2001,7 @@
 		</kc:submission>
 		<kc:submission>
 			<kc:laboratory>
-				<kc:acronym>BKFH</kc:acronym>
+				<kc:acronym>BFKH</kc:acronym>
 				<kc:pastAcronyms>OMH, MKEH</kc:pastAcronyms>
 				<kc:ror>https://ror.org/03c6pbw79</kc:ror>
 			</kc:laboratory>
@@ -1907,7 +2010,7 @@
 			<kc:doeValid>false</kc:doeValid>
 			<kc:radioactiveSolutions>
 				<kc:radioactiveSolution>
-					<kc:solutionID>Mn-54BKFH1977-1</kc:solutionID>
+					<kc:solutionID>Mn-54BFKH1977-1</kc:solutionID>
 					<kc:mass>
 						<dsi:value>3.6016</dsi:value>
 						<dsi:unit>\gram</dsi:unit>
@@ -1928,14 +2031,14 @@
 							<kc:InChI>InChI=1S/Mn</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>25</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
 					<kc:impurities>Not reported</kc:impurities>
 				</kc:radioactiveSolution>
 				<kc:radioactiveSolution>
-					<kc:solutionID>Mn-54BKFH1977-2</kc:solutionID>
+					<kc:solutionID>Mn-54BFKH1977-2</kc:solutionID>
 					<kc:mass>
 						<dsi:value>3.6034</dsi:value>
 						<dsi:unit>\gram</dsi:unit>
@@ -1956,7 +2059,7 @@
 							<kc:InChI>InChI=1S/Mn</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>25</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -1966,7 +2069,7 @@
 			<kc:laboratoryMeasurements>
 				<kc:measurement>
 					<kc:referenceDate>1977-03-01T12:00:00Z</kc:referenceDate>
-					<kc:solutionID>Mn-54BKFH1977-1</kc:solutionID>
+					<kc:solutionID>Mn-54BFKH1977-1</kc:solutionID>
 					<kc:halfLife>
 						<kc:evaluation>
 							<dsi:value>312.3</dsi:value>
@@ -1999,7 +2102,7 @@
 				</kc:measurement>
 				<kc:measurement>
 					<kc:referenceDate>1977-03-01T12:00:00Z</kc:referenceDate>
-					<kc:solutionID>Mn-54BKFH1977-2</kc:solutionID>
+					<kc:solutionID>Mn-54BFKH1977-2</kc:solutionID>
 					<kc:halfLife>
 						<kc:evaluation>
 							<dsi:value>312.3</dsi:value>
@@ -2034,7 +2137,7 @@
 			<kc:bipmMeasurements>
 				<kc:bipmMeasurement>
 					<kc:solutions>
-						<kc:solutionID>Mn-54BKFH1977-1</kc:solutionID>
+						<kc:solutionID>Mn-54BFKH1977-1</kc:solutionID>
 					</kc:solutions>
 					<kc:methods>
 						<kc:method>4P-PP-MX-NA-GR-CO</kc:method>
@@ -2055,7 +2158,7 @@
 				</kc:bipmMeasurement>
 				<kc:bipmMeasurement>
 					<kc:solutions>
-						<kc:solutionID>Mn-54BKFH1977-2</kc:solutionID>
+						<kc:solutionID>Mn-54BFKH1977-2</kc:solutionID>
 					</kc:solutions>
 					<kc:methods>
 						<kc:method>4P-PP-MX-NA-GR-CO</kc:method>
@@ -2078,7 +2181,7 @@
 		</kc:submission>
 		<kc:submission>
 			<kc:laboratory>
-				<kc:acronym>BKFH</kc:acronym>
+				<kc:acronym>BFKH</kc:acronym>
 				<kc:pastAcronyms>OMH, MKEH</kc:pastAcronyms>
 				<kc:ror>https://ror.org/03c6pbw79</kc:ror>
 			</kc:laboratory>
@@ -2087,7 +2190,7 @@
 			<kc:doeValid>false</kc:doeValid>
 			<kc:radioactiveSolutions>
 				<kc:radioactiveSolution>
-					<kc:solutionID>Mn-54BKFH1982-1</kc:solutionID>
+					<kc:solutionID>Mn-54BFKH1982-1</kc:solutionID>
 					<kc:mass>
 						<dsi:value>3.6022</dsi:value>
 						<dsi:unit>\gram</dsi:unit>
@@ -2108,7 +2211,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>25</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -2118,7 +2221,7 @@
 			<kc:laboratoryMeasurements>
 				<kc:measurement>
 					<kc:referenceDate>1982-11-01T12:00:00Z</kc:referenceDate>
-					<kc:solutionID>Mn-54BKFH1982-1</kc:solutionID>
+					<kc:solutionID>Mn-54BFKH1982-1</kc:solutionID>
 					<kc:halfLife>
 						<kc:evaluation>
 							<dsi:value>312.3</dsi:value>
@@ -2153,7 +2256,7 @@
 			<kc:bipmMeasurements>
 				<kc:bipmMeasurement>
 					<kc:solutions>
-						<kc:solutionID>Mn-54BKFH1982-1</kc:solutionID>
+						<kc:solutionID>Mn-54BFKH1982-1</kc:solutionID>
 					</kc:solutions>
 					<kc:methods>
 						<kc:method>4P-PP-MX-NA-GR-CO</kc:method>
@@ -2176,7 +2279,7 @@
 		</kc:submission>
 		<kc:submission>
 			<kc:laboratory>
-				<kc:acronym>BKFH</kc:acronym>
+				<kc:acronym>BFKH</kc:acronym>
 				<kc:pastAcronyms>OMH, MKEH</kc:pastAcronyms>
 				<kc:ror>https://ror.org/03c6pbw79</kc:ror>
 			</kc:laboratory>
@@ -2185,7 +2288,7 @@
 			<kc:doeValid>false</kc:doeValid>
 			<kc:radioactiveSolutions>
 				<kc:radioactiveSolution>
-					<kc:solutionID>Mn-54BKFH1998-1</kc:solutionID>
+					<kc:solutionID>Mn-54BFKH1998-1</kc:solutionID>
 					<kc:mass>
 						<dsi:value>3.6126</dsi:value>
 						<dsi:unit>\gram</dsi:unit>
@@ -2206,7 +2309,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>25</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -2216,7 +2319,7 @@
 			<kc:laboratoryMeasurements>
 				<kc:measurement>
 					<kc:referenceDate>1998-10-27T00:00:00Z</kc:referenceDate>
-					<kc:solutionID>Mn-54BKFH1998-1</kc:solutionID>
+					<kc:solutionID>Mn-54BFKH1998-1</kc:solutionID>
 					<kc:halfLife>
 						<kc:evaluation>
 							<dsi:value>312.3</dsi:value>
@@ -2251,7 +2354,7 @@
 			<kc:bipmMeasurements>
 				<kc:bipmMeasurement>
 					<kc:solutions>
-						<kc:solutionID>Mn-54BKFH1998-1</kc:solutionID>
+						<kc:solutionID>Mn-54BFKH1998-1</kc:solutionID>
 					</kc:solutions>
 					<kc:methods>
 						<kc:method>4P-PP-MX-NA-GR-CO</kc:method>
@@ -2274,7 +2377,7 @@
 		</kc:submission>
 		<kc:submission>
 			<kc:laboratory>
-				<kc:acronym>BKFH</kc:acronym>
+				<kc:acronym>BFKH</kc:acronym>
 				<kc:pastAcronyms>OMH, MKEH</kc:pastAcronyms>
 				<kc:ror>https://ror.org/03c6pbw79</kc:ror>
 			</kc:laboratory>
@@ -2283,7 +2386,7 @@
 			<kc:doeValid>true</kc:doeValid>
 			<kc:radioactiveSolutions>
 				<kc:radioactiveSolution>
-					<kc:solutionID>Mn-54BKFH2006-1</kc:solutionID>
+					<kc:solutionID>Mn-54BFKH2006-1</kc:solutionID>
 					<kc:mass>
 						<dsi:value>3.6117</dsi:value>
 						<dsi:unit>\gram</dsi:unit>
@@ -2304,7 +2407,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>17</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -2314,7 +2417,7 @@
 			<kc:laboratoryMeasurements>
 				<kc:measurement>
 					<kc:referenceDate>2006-07-01T00:00:00Z</kc:referenceDate>
-					<kc:solutionID>Mn-54BKFH2006-1</kc:solutionID>
+					<kc:solutionID>Mn-54BFKH2006-1</kc:solutionID>
 					<kc:halfLife>
 						<kc:evaluation>
 							<dsi:value>312.13</dsi:value>
@@ -2349,7 +2452,7 @@
 			<kc:bipmMeasurements>
 				<kc:bipmMeasurement>
 					<kc:solutions>
-						<kc:solutionID>Mn-54BKFH2006-1</kc:solutionID>
+						<kc:solutionID>Mn-54BFKH2006-1</kc:solutionID>
 					</kc:solutions>
 					<kc:methods>
 						<kc:method>4P-PP-MX-NA-GR-CO</kc:method>
@@ -2402,7 +2505,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>20</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -2493,7 +2596,7 @@
 							<kc:InChI>InChI=1S/Mn.H2O4S/c;1-5(2,3)4/h;(H2,1,2,3,4)/q+2;/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>50</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -2583,7 +2686,7 @@
 							<kc:InChI>InChI=1S/Mn.H2O4S/c;1-5(2,3)4/h;(H2,1,2,3,4)/q+2;/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>50</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -2672,7 +2775,7 @@
 							<kc:InChI>InChI=1S/Mn.H2O4S/c;1-5(2,3)4/h;(H2,1,2,3,4)/q+2;/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>50</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -2766,7 +2869,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>10</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -2778,7 +2881,7 @@
 					<kc:referenceDate>1989-04-01T00:00:00Z</kc:referenceDate>
 					<kc:solutionID>Mn-54IRA1989-1</kc:solutionID>
 					<kc:methodID>4P-PC-MX-NA-GR-CO</kc:methodID>
-					<kc:description>4pi(PC)e,x-gamma coincidence</kc:description>
+					<kc:description>4pi(PC)(e,x)-gamma coincidence</kc:description>
 					<kc:activity>
 						<kc:measurementResult>
 							<dsi:value>2037</dsi:value>
@@ -2797,7 +2900,7 @@
 					<kc:referenceDate>1989-04-01T00:00:00Z</kc:referenceDate>
 					<kc:solutionID>Mn-54IRA1989-1</kc:solutionID>
 					<kc:methodID>4P-NA-GR-00-00-00</kc:methodID>
-					<kc:description>4pi gamma(NaI(Tl))</kc:description>
+					<kc:description>4pi gamma (NaI(Tl))</kc:description>
 					<kc:activity>
 						<kc:measurementResult>
 							<dsi:value>2037</dsi:value>
@@ -2874,7 +2977,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>10</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -2906,7 +3009,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>10</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -3034,7 +3137,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>5</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -3122,7 +3225,7 @@
 							<kc:InChI>InChI=1S/Mn/q+2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>10</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -3221,7 +3324,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>41</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -3253,7 +3356,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>41</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -3409,7 +3512,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>30</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -3504,7 +3607,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>64</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -3644,7 +3747,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>80</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -3739,7 +3842,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>50</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -3767,7 +3870,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>50</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -3894,7 +3997,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>50</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -3977,7 +4080,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>100</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -4005,7 +4108,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>100</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -4105,8 +4208,8 @@
 				<kc:ror>https://ror.org/015w2mp89</kc:ror>
 			</kc:laboratory>
 			<kc:year>2006</kc:year>
-			<kc:inKCRV>true</kc:inKCRV>
-			<kc:doeValid>true</kc:doeValid>
+			<kc:inKCRV>false</kc:inKCRV>
+			<kc:doeValid>false</kc:doeValid>
 			<kc:radioactiveSolutions>
 				<kc:radioactiveSolution>
 					<kc:solutionID>Mn-54NPL2006-1</kc:solutionID>
@@ -4134,7 +4237,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>50</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -4202,6 +4305,113 @@
 		</kc:submission>
 		<kc:submission>
 			<kc:laboratory>
+				<kc:acronym>NPL</kc:acronym>
+				<kc:ror>https://ror.org/015w2mp89</kc:ror>
+			</kc:laboratory>
+			<kc:year>2024</kc:year>
+			<kc:inKCRV>true</kc:inKCRV>
+			<kc:doeValid>true</kc:doeValid>
+			<kc:radioactiveSolutions>
+				<kc:radioactiveSolution>
+					<kc:solutionID>Mn-54NPL2024-1</kc:solutionID>
+					<kc:mass>
+						<dsi:value>3.61783</dsi:value>
+						<dsi:unit>\gram</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:standardMU>
+								<dsi:valueStandardMU>21</dsi:valueStandardMU>
+							</dsi:standardMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:mass>
+					<kc:density>
+						<dsi:value>1.006</dsi:value>
+						<dsi:unit>\gram\centi\metre\tothe{-3}</dsi:unit>
+					</kc:density>
+					<kc:chemicalComposition>
+						<kc:solvant>
+							<kc:smiles>Cl</kc:smiles>
+							<kc:InChIKey>VEXZGXHMUGYJMC-UHFFFAOYSA-N</kc:InChIKey>
+							<kc:InChI>InChI=1S/ClH/h1H</kc:InChI>
+							<kc:solvantConcentration>
+								<dsi:value>0.5</dsi:value>
+								<dsi:unit>\mole\deci\metre\tothe{-3}</dsi:unit>
+							</kc:solvantConcentration>
+						</kc:solvant>
+						<kc:carrier>
+							<kc:smiles>Cl[Mn]Cl</kc:smiles>
+							<kc:InChIKey>GLFNIEUTAYBVOC-UHFFFAOYSA-L</kc:InChIKey>
+							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
+							<kc:carrierConcentration>
+								<dsi:value>10</dsi:value>
+								<dsi:unit>g.g-1</dsi:unit>
+							</kc:carrierConcentration>
+						</kc:carrier>
+					</kc:chemicalComposition>
+					<kc:impurities>133Ba: 0.0181(5)%, 106Ru/106Rh: 0.172(5)%</kc:impurities>
+				</kc:radioactiveSolution>
+			</kc:radioactiveSolutions>
+			<kc:laboratoryMeasurements>
+				<kc:measurement>
+					<kc:referenceDate>2023-07-17T12:00:00Z</kc:referenceDate>
+					<kc:solutionID>Mn-54NPL2024-1</kc:solutionID>
+					<kc:halfLife>
+						<kc:evaluation>
+							<dsi:value>312.19</dsi:value>
+							<dsi:unit>\day</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>3</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:evaluation>
+						<kc:reference>
+							<kc:doi>http://www.lnhb.fr/nuclides/Mn-54_tables.pdf</kc:doi>
+						</kc:reference>
+					</kc:halfLife>
+					<kc:methodID>4P-LS-GH-MX-CO</kc:methodID>
+					<kc:description>4pi(LS)-gamma digital coincidence counting</kc:description>
+					<kc:comments>4P-LS-GH-MX-CO at lowest level of the standardisation before application of dilution factor and inclusion of dilution uncertainty.</kc:comments>
+					<kc:activity>
+						<kc:measurementResult>
+							<dsi:value>1570</dsi:value>
+							<dsi:unit>\kilo\becquerel</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>0.617</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:measurementResult>
+						<kc:relStdUncertTypeA>0.441</kc:relStdUncertTypeA>
+						<kc:relStdUncertTypeB>0.431</kc:relStdUncertTypeB>
+					</kc:activity>
+				</kc:measurement>
+			</kc:laboratoryMeasurements>
+			<kc:bipmMeasurements>
+				<kc:bipmMeasurement>
+					<kc:solutions>
+						<kc:solutionID>Mn-54NPL2024-1</kc:solutionID>
+					</kc:solutions>
+					<kc:methods>
+						<kc:method>4P-LS-GH-MX-CO</kc:method>
+					</kc:methods>
+					<kc:referenceSource>2</kc:referenceSource>
+					<kc:equivalentActivity>
+						<kc:sirResult>
+							<dsi:value>19237</dsi:value>
+							<dsi:unit>\kilo\becquerel</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>120</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:sirResult>
+						<kc:relStdUncertFromSIR>0.0009</kc:relStdUncertFromSIR>
+					</kc:equivalentActivity>
+				</kc:bipmMeasurement>
+			</kc:bipmMeasurements>
+		</kc:submission>
+		<kc:submission>
+			<kc:laboratory>
 				<kc:acronym>POLATOM</kc:acronym>
 				<kc:pastAcronyms>IBJ, RC</kc:pastAcronyms>
 				<kc:ror>https://ror.org/00nzsxq20</kc:ror>
@@ -4236,7 +4446,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>25</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -4451,7 +4661,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>25</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -4664,7 +4874,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>15</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -4697,7 +4907,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>15</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -4824,7 +5034,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>20</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -4912,7 +5122,7 @@
 							<kc:InChI>InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>30</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
