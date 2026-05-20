@@ -516,7 +516,7 @@
 			</kc:degreesOfEquivalence>
 		</kc:release>
 		<kc:release>
-			<kc:doi></kc:doi>
+			<kc:doi>https://doi.org/10.1088/0026-1394/61/1A/06012</kc:doi>
 			<kc:year>2024</kc:year>
 			<kc:kcrv>
 				<dsi:value>559.9</dsi:value>
@@ -768,6 +768,259 @@
 				</kc:degreeOfEquivalence>
 			</kc:degreesOfEquivalence>
 		</kc:release>
+		<kc:release>
+			<kc:doi></kc:doi>
+			<kc:year>2026</kc:year>
+			<kc:kcrv>
+				<dsi:value>558.8</dsi:value>
+				<dsi:unit>MBq</dsi:unit>
+				<dsi:measurementUncertaintyUnivariate>
+					<dsi:standardMU>
+						<dsi:valueStandardMU>1.1</dsi:valueStandardMU>
+					</dsi:standardMU>
+				</dsi:measurementUncertaintyUnivariate>
+			</kc:kcrv>
+			<kc:degreesOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>JRC</kc:acronym>
+						<kc:pastAcronyms>IRMM, CBNM</kc:pastAcronyms>
+						<kc:ror>https://ror.org/02ef88m96</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>8</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>19</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>NPL</kc:acronym>
+						<kc:ror>https://ror.org/015w2mp89</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>0.7</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>3.3</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>IFIN-HH</kc:acronym>
+						<kc:ror>https://ror.org/00d3pnh21</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-8</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>10</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>CMI</kc:acronym>
+						<kc:pastAcronyms>UVVVR, CMI-IIR</kc:pastAcronyms>
+						<kc:ror>https://ror.org/02m5haa59</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>0.6</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>4.7</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>LNE-LNHB</kc:acronym>
+						<kc:pastAcronyms>LMRI, LPRI, BNM-LNHB</kc:pastAcronyms>
+						<kc:ror>https://ror.org/03az79194</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-0.2</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>3.9</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>IRA</kc:acronym>
+						<kc:pastAcronyms>IER</kc:pastAcronyms>
+						<kc:ror>https://ror.org/05a353079</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>0.1</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>4.3</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+			</kc:degreesOfEquivalence>
+			<kc:degreesOfEquivalence>
+				<kc:linkedComparison>
+					<kc:comparisonCode>CCRI(II)-K2.Lu-177(2009)</kc:comparisonCode>
+					<kc:consultativeCommittee>CCRI(II)</kc:consultativeCommittee>
+					<kc:year>2009</kc:year>
+					<kc:doi>https://doi.org/10.1088/0026-1394/50/1A/06020</kc:doi>
+				</kc:linkedComparison>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>ANSTO</kc:acronym>
+						<kc:pastAcronyms>AAEC</kc:pastAcronyms>
+						<kc:ror>https://ror.org/05j7fep28</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-3.0</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>3.6</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>ENEA-INMRI</kc:acronym>
+						<kc:ror>https://ror.org/01m7aex78</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>5.3</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>7.9</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>LNMRI-IRD</kc:acronym>
+						<kc:pastAcronyms>IEA, IPEN</kc:pastAcronyms>
+						<kc:ror>https://ror.org/00q0yh079</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-1.0</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>7.2</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>NIST</kc:acronym>
+						<kc:pastAcronyms>NBS</kc:pastAcronyms>
+						<kc:ror>https://ror.org/05xpvk416</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>0.6</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>4.4</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>NMISA</kc:acronym>
+						<kc:pastAcronyms>NAC, CSIR-NML</kc:pastAcronyms>
+						<kc:ror>https://ror.org/02j01mp63</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>1.8</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>3.7</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>POLATOM</kc:acronym>
+						<kc:pastAcronyms>IBJ, RC</kc:pastAcronyms>
+						<kc:ror>https://ror.org/00nzsxq20</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-0.6</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>6.6</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+				<kc:degreeOfEquivalence>
+					<kc:laboratory>
+						<kc:acronym>PTB</kc:acronym>
+						<kc:ror>https://ror.org/05r3f7h03</kc:ror>
+					</kc:laboratory>
+					<kc:result>
+						<dsi:value>-0.2</dsi:value>
+						<dsi:unit>\mega\becquerel</dsi:unit>
+						<dsi:measurementUncertaintyUnivariate>
+							<dsi:expandedMU>
+								<dsi:valueExpandedMU>3.3</dsi:valueExpandedMU>
+								<dsi:coverageFactor>2</dsi:coverageFactor>
+								<dsi:coverageProbability>0.95</dsi:coverageProbability>
+							</dsi:expandedMU>
+						</dsi:measurementUncertaintyUnivariate>
+					</kc:result>
+				</kc:degreeOfEquivalence>
+			</kc:degreesOfEquivalence>
+		</kc:release>
 	</kc:comparisonData>
 	<kc:comparisonMetadata>
 		<kc:submission>
@@ -803,7 +1056,7 @@
 				<kc:ror>https://ror.org/02m5haa59</kc:ror>
 			</kc:laboratory>
 			<kc:year>2023</kc:year>
-			<kc:inKCRV>false</kc:inKCRV>
+			<kc:inKCRV>true</kc:inKCRV>
 			<kc:doeValid>true</kc:doeValid>
 			<kc:radioactiveSolutions>
 				<kc:radioactiveSolution>
@@ -837,13 +1090,48 @@
 							<kc:InChI>InChI=1S/3ClH.Lu/h3*1H;/q;;;+3/p-3</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>1.25</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
 					<kc:impurities>none detected</kc:impurities>
 				</kc:radioactiveSolution>
 			</kc:radioactiveSolutions>
+			<kc:laboratoryMeasurements>
+				<kc:measurement>
+					<kc:referenceDate>2023-09-08T10:00:00Z</kc:referenceDate>
+					<kc:solutionID>Lu-177CMI2023-1</kc:solutionID>
+					<kc:halfLife>
+						<kc:evaluation>
+							<dsi:value>6.647</dsi:value>
+							<dsi:unit>\day</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>4</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:evaluation>
+						<kc:reference>
+							<kc:doi>http://www.bipm.org/utils/common/pdf/monographieRI/Monographie_BIPM-5_Tables_Vol2.pdf</kc:doi>
+						</kc:reference>
+					</kc:halfLife>
+					<kc:methodID>4P-PC-BP-NA-GR-CO</kc:methodID>
+					<kc:description>4pi(PC)beta-gamma coincidence</kc:description>
+					<kc:activity>
+						<kc:measurementResult>
+							<dsi:value>11622.3</dsi:value>
+							<dsi:unit>\kilo\becquerel</dsi:unit>
+							<dsi:measurementUncertaintyUnivariate>
+								<dsi:standardMU>
+									<dsi:valueStandardMU>0.432</dsi:valueStandardMU>
+								</dsi:standardMU>
+							</dsi:measurementUncertaintyUnivariate>
+						</kc:measurementResult>
+						<kc:relStdUncertTypeA>0.1</kc:relStdUncertTypeA>
+						<kc:relStdUncertTypeB>0.42</kc:relStdUncertTypeB>
+					</kc:activity>
+				</kc:measurement>
+			</kc:laboratoryMeasurements>
 			<kc:bipmMeasurements>
 				<kc:bipmMeasurement>
 					<kc:solutions>
@@ -926,7 +1214,7 @@
 			</kc:laboratory>
 			<kc:year>2022</kc:year>
 			<kc:inKCRV>false</kc:inKCRV>
-			<kc:doeValid>true</kc:doeValid>
+			<kc:doeValid>false</kc:doeValid>
 			<kc:radioactiveSolutions>
 				<kc:radioactiveSolution>
 					<kc:solutionID>Lu-177IRA2022-1</kc:solutionID>
@@ -961,7 +1249,7 @@
 						<kc:carrier>
 							<kc:carrierConcentration>
 								<dsi:value>20</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -1064,7 +1352,7 @@
 							<kc:InChI>InChI=1S/3ClH.Lu/h3*1H;/q;;;+3/p-3</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>20</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -1400,7 +1688,7 @@
 							<kc:InChI>InChI=1S/3ClH.Lu/h3*1H;/q;;;+3/p-3</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>20</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -1598,7 +1886,7 @@
 							<kc:InChI>InChI=1S/3ClH.Lu/h3*1H;/q;;;+3/p-3</kc:InChI>
 							<kc:carrierConcentration>
 								<dsi:value>20</dsi:value>
-								<dsi:unit>\micro\gram\gram\tothe{-1}</dsi:unit>
+								<dsi:unit>g.g-1</dsi:unit>
 							</kc:carrierConcentration>
 						</kc:carrier>
 					</kc:chemicalComposition>
@@ -1625,7 +1913,7 @@
 					</kc:halfLife>
 					<kc:methodID>4P-LS-MX-00-00-CN</kc:methodID>
 					<kc:description>CIEMAT/NIST</kc:description>
-					<kc:comments>The result the weighted mean of the two methods.</kc:comments>
+					<kc:comments>The result is the weighted mean of the two methods.</kc:comments>
 					<kc:activity>
 						<kc:measurementResult>
 							<dsi:value>138790</dsi:value>
@@ -1659,7 +1947,7 @@
 					</kc:halfLife>
 					<kc:methodID>4P-PC-BP-NA-GR-CO</kc:methodID>
 					<kc:description>4pi(PC)beta-gamma coincidence</kc:description>
-					<kc:comments>The result the weighted mean of the two methods.</kc:comments>
+					<kc:comments>The result is the weighted mean of the two methods.</kc:comments>
 					<kc:activity>
 						<kc:measurementResult>
 							<dsi:value>138790</dsi:value>
